@@ -11,7 +11,7 @@ object Exercises {
    * Expected behaviour:
    *
    *  input:
-   *  lst: List[Int] = List(Some(1), None, Some(3))
+   *  lst: List[Option[Int]] = List(Some(1), None, Some(3))
    *  func = (x: Int) => 2 * x
    *
    *  output: List(Some(2), None, Some(6))
@@ -24,7 +24,7 @@ object Exercises {
    * Expected behaviour:
    *
    *  input:
-   *  lst: List[Int] = List(Some(1), None, Some(3))
+   *  lst: List[Option[Int]] = List(Some(1), None, Some(3))
    *  func = (x: Int) => 2 * x
    *
    *  output: List(2, 6)
@@ -37,7 +37,7 @@ object Exercises {
    * Expected behaviour:
    *
    *  input:
-   *  lst: List[Int] = List(Some(1), None, Some(3))
+   *  lst: List[Option[Int]] = List(Some(1), None, Some(3))
    *  p = (x: Int) => x % 3 == 0
    *
    *  output: List(3)
